@@ -34,7 +34,7 @@ document.getElementById("share").innerHTML =
 
 if ( document.getElementById("file").files.length == 0 ){
  //   alert("no files selected");
-    output.innerHTML = "Silakan pilih file!";
+    output.innerHTML = "Tidak ada file yang dipilih!";
 }
 const canvas = document.getElementById('cvs');
 canvas.toBlob((blob) => {
