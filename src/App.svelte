@@ -17,12 +17,9 @@
                 box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);
         }
 
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
-	}
+	p {
+                line-height: 1.6;
+        }
 
 	@media (min-width: 640px) {
 		main {
