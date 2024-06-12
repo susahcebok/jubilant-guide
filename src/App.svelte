@@ -22,7 +22,7 @@
 
         <div class="p f p">
         <p>
-        <button id="save" onclick="canvasToPng()" disabled>Unduh</button>
+        <button id="save" onclick="canvasToPng()">Unduh</button>
         <span id="share"></span>
         </p>
         </div>
