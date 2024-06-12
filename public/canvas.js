@@ -33,13 +33,11 @@ document.getElementById("share").innerHTML =
 '<button onclick="clearCanvas()">Hapus</button> <button onclick="shareCanvas()">Share</button>';
 
 if ( document.getElementById("file").files.length == 0 ){
- //   alert("no files selected");
-    output.innerHTML = "Tidak ada file yang dipilih!";
+output.innerHTML = "Tidak ada file yang dipilih!";
 }
 else
 {
- output.innerHTML = "File dipilih!";
-// alert('File dipilih!');
+output.innerHTML = "File dipilih!";
 }
  
 const canvas = document.getElementById('cvs');
