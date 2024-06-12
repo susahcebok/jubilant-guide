@@ -48,3 +48,17 @@ image = null;
 canvas = null;
 imgFile = null;
 }
+
+let clickButton = document.getElementById("save");
+let fileInput = document.getElementById("file");
+fileInput.addEventListener("change", function () {
+         
+// check if the file is selected or not
+if (fileInput.files.length == 0) {
+clickButton.disabled = true;
+clickButton.opacity = 0.3;
+} else {
+clickButton.disabled = false;
+clickButton.style.opacity = 1;
+}
+});
