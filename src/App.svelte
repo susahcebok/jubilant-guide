@@ -21,10 +21,6 @@
         </div>
 
         <div class="p f p">
-        <p id="output"></p>
-        </div>
-
-        <div class="p f p">
         <p>
         <button id="download" onclick="canvasToPng()">Unduh</button>
         <span id="share"></span>
