@@ -21,9 +21,10 @@
                 line-height: 1.6;
         }
 
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
-	}
+	@media (max-width: 700px) {
+        main {
+                margin: 0 auto;
+                width: auto;
+         }
+       }
 </style>
