@@ -49,8 +49,8 @@ canvas = null;
 imgFile = null;
 }
 
-let clickButton = document.getElementById("download");
-let fileInput = document.getElementById("file");
+var clickButton = document.getElementById("download");
+var fileInput = document.getElementById("file");
 fileInput.addEventListener("change", function () {
          
 // check if the file is selected or not
