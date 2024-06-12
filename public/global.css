@@ -30,8 +30,7 @@ img, canvas {
 }
 
 img:hover, canvas:hover {
-	opacity: 0.6;
-	cursor: not-allowed;
+	background-color: #e3f2fd;
 }
 
 .image-upload > input {
