@@ -16,12 +16,29 @@ a {
 	text-decoration: none;
 }
 
-a:hover {
-	text-decoration: underline;
-}
-
 a:visited {
 	color: rgb(0,80,160);
+}
+
+img, canvas {
+	background-image: url('https://susahcebok.github.io/laughing-invention/pilihfile.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	width: 100%; 
+	height: auto;
+}
+
+img:hover, canvas:hover {
+opacity: 0.6;
+cursor: not-allowed;
+}
+.image-upload > input {
+display: none;
+}
+.image-upload img {
+width: 100%;
+cursor: pointer;
 }
 
 label {
