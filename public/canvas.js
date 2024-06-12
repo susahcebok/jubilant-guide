@@ -48,21 +48,3 @@ image = null;
 canvas = null;
 imgFile = null;
 }
-
- $('#download').bind("click",function() 
-    { 
- 
-   
-        var imgVal = $('#file').val(); 
-        if(imgVal=='') 
-        { 
-            alert("empty input file"); 
-
-        } 
-       else
-         {
-           alert('file fill in');
-         }
-   
-
-    }); 
