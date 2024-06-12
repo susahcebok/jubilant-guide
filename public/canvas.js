@@ -30,7 +30,7 @@ $('#cvs').removeAttr('style');
 
 function canvasToPng() {	
 document.getElementById("share").innerHTML =
-'<button onclick="del()">Hapus</button> <button onclick="shareCanvas()">Share</button>';
+'<button id="del">Hapus</button> <button onclick="shareCanvas()">Share</button>';
 
 if ( document.getElementById("file").files.length == 0 ){
  //   alert("no files selected");
@@ -54,8 +54,9 @@ link.click();
 // imgFile = null;
 // }
 
-function del() {
-var Reset = document.getElementById(“cvs”);
-Reset.removeChild(Reset.childNodes[0]);
-alert("Image deleted");
-}
+const deleteButton = document.getElementById('del'); 
+const imageElement = document .getElementById('cvs'); 
+
+deleteButton.addEventListener('click', function () { 
+imageElement.parentNode.removeChild(imageElement); 
+}); 
