@@ -37,9 +37,10 @@ if ( document.getElementById("file").files.length == 0 ){
     output.innerHTML = "Tidak ada file yang dipilih!";
 }
 else
-         {
-           alert('file fill in');
-         }
+{
+ output.innerHTML = "File dipilih!";
+// alert('File dipilih!');
+}
  
 const canvas = document.getElementById('cvs');
 canvas.toBlob((blob) => {
