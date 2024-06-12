@@ -4,7 +4,21 @@
 
 <main>
 	<h1>PFP {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<p>Bingkai profil Anda dengan warna perlawanan. Biarkan foto profil Anda berbicara banyak tentang perdamaian dan keadilan.</p>
+
+        <p>
+        <div class="image-upload">
+        <label for="file">
+        <p><img id="cvs" src="pilihfile.png"/></p>
+        </label>
+        <input id="file" type="file" accept="image/*" onchange="loadFile(event)" style="display:none;">
+        </div>
+        </p>
+
+        <p>
+        <button id="download" onclick="canvasToPng()">Download</button>
+        <span id="share"></span>
+        </p>
 </main>
 
 <style>
