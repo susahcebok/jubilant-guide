@@ -36,6 +36,11 @@ if ( document.getElementById("file").files.length == 0 ){
  //   alert("no files selected");
     output.innerHTML = "Tidak ada file yang dipilih!";
 }
+else
+         {
+           alert('file fill in');
+         }
+ 
 const canvas = document.getElementById('cvs');
 canvas.toBlob((blob) => {
 const link = document.createElement("a");
