@@ -55,7 +55,7 @@ link.click();
 // }
 
 const deleteButton = document.getElementById('del'); 
-const imageElement = document .getElementById('cvs'); 
+const imageElement = document.getElementById('cvs'); 
 
 deleteButton.addEventListener('click', function () { 
 imageElement.parentNode.removeChild(imageElement); 
