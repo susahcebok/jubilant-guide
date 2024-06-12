@@ -31,6 +31,10 @@ $('#cvs').removeAttr('style');
 function canvasToPng() {	
 document.getElementById("share").innerHTML =
 '<button onclick="clearCanvas()">Hapus</button> <button onclick="shareCanvas()">Share</button>';
+
+if ( document.getElementById("file").files.length == 0 ){
+    alert("no files selected");
+}
 const canvas = document.getElementById('cvs');
 canvas.toBlob((blob) => {
 const link = document.createElement("a");
