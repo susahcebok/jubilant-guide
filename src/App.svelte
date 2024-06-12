@@ -33,6 +33,7 @@
                 width: 600px;
                 margin: 5em auto;
                 padding: 3em;
+                letter-spacing: 1.2px;
                 background-color: #fdfdff;
                 border-radius: 0.5em;
                 box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);
