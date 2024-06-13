@@ -30,7 +30,6 @@
         <span id="share"></span>
         </p>
         </div>
-        <canvas style="display:none;"></canvas>
 </main>
 
 <style>
