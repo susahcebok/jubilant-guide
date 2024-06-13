@@ -31,7 +31,7 @@
         </p>
         </div>
 </main>
-<p><span id="os"></spa>_<span id="browser"></span></p>
+<p><span id="os"></span>_<span id="browser"></span></p>
 
 <style>
 	main { 
