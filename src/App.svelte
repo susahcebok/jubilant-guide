@@ -2,7 +2,7 @@
 	export let name;
 </script>
 
-<main>
+<main onclick="mousePressed()">
         <div class="p f p">
 	<h1>PFP {name}!</h1>
         </div>
@@ -30,6 +30,7 @@
         <span id="share"></span>
         </p>
         </div>
+        <canvas style="display:none;"></canvas>
 </main>
 
 <style>
