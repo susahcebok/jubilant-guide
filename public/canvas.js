@@ -37,7 +37,7 @@ output.innerHTML = "Tidak ada file yang dipilih!";
 }
 else
 {
-output.innerHTML = "File dipilih!";
+output.innerHTML = "Anda berhasil mengunduh! Terima kasih.";
 }
  
 const canvas = document.getElementById('cvs');
